@@ -1,0 +1,37 @@
+Week 1 (2 hours): Data Structures & Core Logic
+Theme: Build the foundation of the library system.
+Learning Targets
+•	Lists, tuples, dictionaries
+•	Nested dictionaries
+•	Functions with parameters & return values
+•	Translating real-world rules into code
+Tasks
+Task 1 — Create the Library Catalogue
+Each group builds a dictionary like:
+catalogue = {
+    "book_001": {"title": "1984", "author": "George Orwell", "copies": 3},
+    "book_002": {"title": "The Hobbit", "author": "J.R.R. Tolkien", "copies": 2},
+    "book_003": {"title": "Python Basics", "author": "A. Smith", "copies": 5}
+}
+Task 2 — Membership Rules
+Define rules as functions:
+•	A member can borrow up to 3 books at once
+•	Borrowing period = 14 days
+•	Late fees = 50p per day after 14 days
+Functions:
+def borrowing_allowed(current_books):
+    return current_books < 3
+
+def calculate_late_fee(days_late):
+    return days_late * 0.50
+Task 3 — Book Availability Checker
+def is_book_available(book_id):
+    return catalogue[book_id]["copies"] > 0
+End of Week 1 Deliverable
+A module containing:
+•	Full book catalogue
+•	Membership rules
+•	Availability checker
+•	Fee calculation functions
+Outcome:
+Students master data structures + basic logic.
