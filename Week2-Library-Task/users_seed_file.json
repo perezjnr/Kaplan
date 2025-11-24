@@ -1,0 +1,14 @@
+{
+    "Alex": {
+        "name": "Alex",
+        "age": 20,
+        "type": "physical",
+        "borrowed": []
+    },
+    "Maria": {
+        "name": "Maria",
+        "age": 17,
+        "type": "digital",
+        "borrowed": ["book_003"]
+    }
+}
